@@ -1,0 +1,19 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "cypress": "cypress run"
+  },
+  "author": "Aki Rautio",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.4.0",
+    "express": "^4.17.1",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0"
+  }
+}

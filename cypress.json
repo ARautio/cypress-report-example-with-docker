@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://www.google.com",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "timestamp": "yyyy-mm-dd"
+  },
+  "video": false
+}
